@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx, html}"],
   theme: {
     extend: {
       flexGrow: {
@@ -9,7 +9,7 @@ module.exports = {
         3: 3,
       },
       colors: {
-        'bright-yellow': "#FFD700",
+        'bright-yellow': "  #FFD700",
         "sky-blue": "#87CEEB",
         "coral": "#FF6F61",
         "lime-green": "#32CD32",
